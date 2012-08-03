@@ -1,0 +1,30 @@
+{
+  "name": "controller",
+  "version": "0.0.0",
+  "description": "Base class for controllers.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sailjs/controller.git"
+  },
+  "bugs": {
+    "url": "http://github.com/sailjs/controller/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "controller",
+  "amd": {},
+  "volo": {
+    "dependencies": {
+      "anchor": "github:anchorjs/anchor"
+    }
+  }
+}
