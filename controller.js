@@ -9,9 +9,6 @@ function(Dib, events, clazz) {
   }
   clazz.inherits(Controller, events.EventEmitter);
   
-  // TODO: Implement support for "static" elements that want to rerender
-  //       by directly manipulating the DOM.
-  
   Controller.prototype._init = function() {
     var dib = new Dib(this.template)
       , locals = this.willLoadDib()
@@ -27,6 +24,9 @@ function(Dib, events, clazz) {
     
     dib.container(element)
        .events(this.events, this);
+       
+    // TODO: Implement support in `Dib` for automatically instantiating views,
+    //       which will work similarly to automatic event binding.
     
     this.el = dib.create(locals);
     this.didLoadDib();
