@@ -23,9 +23,11 @@
   "main": "controller",
   "amd": {},
   "volo": {
+    "baseUrl": "vendor",
     "dependencies": {
-      "anchor": "github:anchorjs/anchor",
-      "dib": "github:sailjs/dib"
+      "class": "github:anchorjs/class/master",
+      "events": "github:anchorjs/events/master",
+      "dib": "github:sailjs/dib/master"
     }
   }
 }

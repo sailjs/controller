@@ -1,13 +1,13 @@
 define(['dib',
-        'anchor/events',
-        'anchor/class'],
-function(Dib, events, clazz) {
+        'events',
+        'class'],
+function(Dib, Emitter, clazz) {
   
   function Controller() {
-    events.EventEmitter.call(this);
+    Emitter.call(this);
     this._init();
   }
-  clazz.inherits(Controller, events.EventEmitter);
+  clazz.inherits(Controller, Emitter);
   
   Controller.prototype._init = function() {
     var dib = new Dib(this.template)
