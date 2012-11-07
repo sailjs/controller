@@ -34,6 +34,10 @@ function(Dib, Emitter, clazz) {
   
   Controller.prototype.willLoadDib = function() {};
   Controller.prototype.didLoadDib = function() {};
+  Controller.prototype.willAddEl = function() {};
+  Controller.prototype.didAddEl = function() {};
+  Controller.prototype.willRemoveEl = function() {};
+  Controller.prototype.didRemoveEl = function() {};
   
   return Controller;
 });
