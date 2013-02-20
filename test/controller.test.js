@@ -1,7 +1,5 @@
-define(['controller/controller',
-        'chai'],
-function(Controller, chai) {
-  var expect = chai.expect;
+define(['controller'],
+function(Controller) {
 
   describe("controller", function() {
     
