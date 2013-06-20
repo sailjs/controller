@@ -1,0 +1,16 @@
+{
+  "name": "controller",
+  "version": "0.0.0",
+  "description": "Base class for controllers in Sail.js.",
+  "repo": "sailjs/controller",
+  "main": "controller.js",
+  "scripts": [
+    "controller.js"
+  ],
+  "dependencies": {
+    "anchorjs/class": "*",
+    "anchorjs/events": "*",
+    "sailjs/dib": "*"
+  },
+  "license": "MIT"
+}

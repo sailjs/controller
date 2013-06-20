@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "class": "git://github.com/anchorjs/class.git",
-    "dib": "git://github.com/anchorjs/dib.git"
+    "dib": "git://github.com/sailjs/dib.git"
   },
   "browserify": {
     "transform": "deamdify"
