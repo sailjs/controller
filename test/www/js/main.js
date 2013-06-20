@@ -9,8 +9,7 @@ require.config({
     { name: 'controller', location: '../../../..', main: 'controller' },
     { name: 'events' },
     { name: 'dom' },
-    { name: 'render' },
-    { name: 'mocha-cloud', location: '../support', main: 'mocha-cloud' }
+    { name: 'render' }
   ],
   shim: {
     'mocha': {
