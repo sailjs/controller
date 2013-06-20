@@ -1,7 +1,7 @@
 {
   "name": "controller",
   "version": "0.0.0",
-  "description": "Base class for controllers.",
+  "description": "Base class for controllers in Sail.js.",
   "repository": {
     "type": "git",
     "url": "git://github.com/sailjs/controller.git"
@@ -22,11 +22,20 @@
   ],
   "main": "controller",
   "devDependencies": {
-    "mocha-phantomjs": "1.x.x",
-    "mocha-cloud": "0.0.1",
-    "term-canvas": "0.0.5",
-    "mocha-cloud-grid-view": "0.0.1",
-    "express": "3.x.x"
+    "express": "3.x.x",
+    "term-canvas": "0.0.x",
+    "mocha-phantomjs": "2.x.x",
+    "mocha-cloud": "0.1.x",
+    "mocha-cloud-grid-view": "0.0.x",
+    "component-amd": "0.1.x",
+    "deamdify": "0.1.x"
+  },
+  "dependencies": {
+    "class": "git://github.com/anchorjs/class.git",
+    "dib": "git://github.com/anchorjs/dib.git"
+  },
+  "browserify": {
+    "transform": "deamdify"
   },
   "volo": {
     "dependencies": {
